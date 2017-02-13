@@ -1,0 +1,18 @@
+<h1>Result</h1>
+<p>Side 1: @Model.GetSide1()</p>
+<p>Side 2: @Model.GetSide2()</p>
+<p>Side 3: @Model.GetSide3()</p>
+<p>Is it a triangle:
+
+@{
+  @if (Model.GetSide1() == 5)
+  {
+    <span>Yes</span>
+  }
+  else
+  {
+    <span>no</span>
+  }
+}
+ </p>
+<p>If so, what kind of triangle is it: </p>
